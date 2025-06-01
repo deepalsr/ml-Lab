@@ -84,5 +84,5 @@ for idx, metric in enumerate(metrics):
     axes[idx].set_xticklabels(results_df["Model"], rotation=15)
 
 plt.tight_layout()
-plt.suptitle("📊 Model Performance Comparison", fontsize=16, y=1.03)
+plt.suptitle(" Model Performance Comparison", fontsize=16, y=1.03)
 plt.show()
