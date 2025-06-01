@@ -46,7 +46,7 @@ for name, model in models.items():
     rmse = np.sqrt(mse)
     mae = mean_absolute_error(y_test, y_pred)
 
-    print(f"\n📊 {name}")
+    print(f"\n {name}")
     print(f"R² Score: {r2:.4f}")
     print(f"MSE: {mse:.4f}")
     print(f"RMSE: {rmse:.4f}")
